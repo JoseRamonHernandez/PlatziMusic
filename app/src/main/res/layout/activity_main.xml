@@ -16,18 +16,18 @@ xmlns:tools="http://schemas.android.com/tools"
   
   <EditText
       android:id="@+id/etLoginUsername"
+      style="@style/AppTheme.EditTextStyle"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_margin="12dp"
       android:layout_below="@id/ivLoginLogo"
       android:drawableStart="@drawable/ic_baseline_person_24"
-      android:drawablePadding="12dp"
       android:hint="@string/hint_usuario"/>
 
   <EditText
       android:id="@+id/etLoginPassword"
+      style="@style/AppTheme.EditTextStyle"
       android:layout_margin="12dp"
-      android:drawablePadding="12dp"
       android:layout_below="@id/etLoginUsername"
       android:drawableStart="@drawable/vector_key"
       android:hint="@string/hint_password"
